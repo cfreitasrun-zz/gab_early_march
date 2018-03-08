@@ -1,0 +1,51 @@
+/*
+Theme Name: Lavelle-child
+Theme URI: https://wpwarfare.com/Lavelle
+Author: tiny bird design studio
+Author URI: https://www.tinybirddesignstudio.com/
+Description: Lavelle is a feminine looking WordPress theme designed to suit those who are looking to create a glamorous beauty, fashion, lifestyle or a stylish travel site. Our ultimate goal with this theme was to get rid of all the distracting and unnecessary on-site elements aiming to deliver an elegant, easy to manage and fast loading theme for creative bloggers. Featuring sidebar and full-width layouts, including various post layouts, as well as a number of sidebar and footer widgets, Lavelle WordPress theme truly is showcasing your content in a slick and trendy way to deliver your sites identity to viewers as soon as they land. Lavelle will let you enjoy the blogging part again!
+Version: 1.0.1
+Template: lavelle
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl.html
+Text Domain: lavelle-child
+Domain Path: /languages/
+Tags: blog, entertainment, one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-menu, custom-logo, featured-images, full-width-template, theme-options, threaded-comments, footer-widgets
+*/
+
+@import url("../lavelle/style.css");
+
+/*SOCIAL LINKS MENU*/
+div.main-navigation {
+  display: inline-block;
+}
+
+div.social-navigation {
+  float: right;
+  margin-top: -50px;
+}
+
+.social-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: pink;
+}
+
+.social-menu li {
+  list-style-type: none;
+  float: left;
+  margin-left: 20px;
+
+}
+
+.navbar .navbar-nav li a {
+  margin-left: 10px;
+  padding-left: 70px;
+  padding-top: 180px;
+}
+
+div.slider {
+  clear: both;
+}
